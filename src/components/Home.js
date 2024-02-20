@@ -7,9 +7,9 @@ import Contact from "./Contact";
 
 const HomeVideo = () => {
   if (window.innerWidth >= 640) {
-    return <video src='/videos/home-vid-16-9.mp4' className="h-full w-full object-cover fixed -z-10" autoPlay loop muted/>
+    return <video src='/videos/home-vid-16-9.mp4' className="h-full w-full object-cover fixed -z-10"  autoPlay={true} loop={true} controls={false} playsInline muted />
   } else {
-    return <video src='/videos/home-video-9-16.mp4' className="h-full w-full object-cover fixed -z-10" autoPlay loop muted/>
+    return <video src='/videos/home-video-9-16.mp4' className="h-full w-full object-cover fixed -z-10" autoPlay={true} loop={true} controls={false} playsInline muted/>
   }
 }
 

@@ -4,9 +4,9 @@ const About = () => {
 
     const AboutVideo = () => {
         if (window.innerWidth >= 640) {
-          return <video src='/videos/paint-splatter-wd.mp4' className="absolute h-full w-full object-cover z-10" autoPlay muted/>
+          return <video src='/videos/paint-splatter-wd.mp4' className="absolute h-full w-full object-cover z-10" autoPlay={true} loop={true} controls={false} playsInline muted/>
         } else {
-          return <video src='/videos/paint-splatter-vh.mp4' className="absolute h-full w-full object-cover z-10" autoPlay muted/>
+          return <video src='/videos/paint-splatter-vh.mp4' className="absolute h-full w-full object-cover z-10" autoPlay={true} loop={true} controls={false} playsInline muted/>
         }
       }
 
