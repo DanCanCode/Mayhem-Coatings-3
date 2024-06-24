@@ -23,6 +23,9 @@ const GalleryView = () => {
     "/images/gallery/floor-18.jpg",
     "/images/gallery/floor-19.jpg",
     "/images/gallery/floor-20.jpg",
+    "/images/gallery/floor-21.jpg",
+    "/images/gallery/floor-22.jpg",
+    "/images/gallery/floor-23.jpg",
 
   ]
 
